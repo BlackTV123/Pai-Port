@@ -1,0 +1,105 @@
+.MY-INFORMATION
+{position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    background-color: black;
+    font-size: 36px;
+    text-align: center;
+}
+.NAME
+{
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    color: white;
+    background-color: black;
+    font-size: 36px;
+    text-align: center;
+}
+
+.CONTACT
+{
+    position: absolute;
+    top: 130%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    color: white;
+    background-color: black;
+    font-size: 36px;
+    text-align: center;
+
+}
+.EDUCATION
+{
+    position: absolute;
+    top: 60%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+    color: white;
+    background-color: black;
+    font-size: 36px;
+    text-align: center;
+
+}
+.HOBBY
+{   position: absolute;
+    top: 150%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+    color: white;
+    background-color: black;
+    font-size: 36px;
+    text-align: center;
+
+}
+.data-name
+{   position: absolute;
+    top: 400px;
+    left: 180px;
+    font-size: 1.5em;
+    color: rgb(6, 6, 6);
+    background-image: none;
+    background-color: transparent;
+    text-align: right;
+    height: 480px;
+    width: 854px;
+}
+.data-contact
+{position: absolute;
+top: 840px;
+left: 180px;
+font-size: 1.5em;
+color: rgb(6, 6, 6);
+background-image: none;
+background-color: transparent;
+text-align: right;
+height: 480px;
+width: 854px;
+}
+.data-education
+{   position: absolute;
+    top: 400px;
+    left: 900px;
+    font-size: 1.5em;
+    color: rgb(6, 6, 6);
+    background-image: none;
+    background-color: transparent;
+    text-align: right;
+    height: 480;
+
+}
+.data-hobby
+{   position: absolute;
+    top: 950px;
+    left: 900px;
+    font-size: 1.5em;
+    color: rgb(6, 6, 6);
+    background-image: none;
+    background-color: transparent;
+    text-align: right;
+    height: 480;
+
+}

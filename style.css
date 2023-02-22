@@ -1,0 +1,19 @@
+.top-header
+{background-color: rgb(53, 48, 48);}
+.Port
+{color: white;
+ font-size: 20px;
+ font-weight: 600;
+}
+.menu
+{color:white;
+padding: 20px;
+display: inline-block;
+text-decoration:none;
+transition-property: transform;
+transition-duration: 1s;
+} 
+.menu:hover
+{transform: scale(1.4,1.4);
+ color: rgb(119, 119, 119);
+}
