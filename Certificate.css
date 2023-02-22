@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('computer.jpg');
+  background-size: 100% 100%;
+  font-family: Arial;
+}
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+h2
+{
+  color: transparent;
+  width: 100%;
+  position: relative;
+  left: 15%;
+}
+h2:hover{
+  color: red;
+  font-size: 20px;
+
+  
+}
+h1 {
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 140, 0);
+  font-size: 50px;
+  position: relative;
+  top: 0%;
+  left: 35%;
+  width: 295px;
+  height: 57px;
+}
+h4{
+  font-size: 50px;
+  background-color: rgb(255, 140, 0);
+  position: relative;
+  top: 0%;
+  left: 28%;
+  width: 475px;
+
+}
+h4:hover
+{ color: white;
+
+}
+.row {
+  position: absolute;
+  left: 10%;
+}
+
+.row,
+.row > .column {
+  padding: 20px;
+}
+
+.column {
+  float: below;
+  width: 90%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  background-color: white;
+  padding: 10px;
+}
