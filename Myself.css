@@ -1,18 +1,35 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+}
+  body{
+    background-image: url('IMG_3698.JPG');
+    width: 100%;
+    height: 1500px;
+    display: flex;
+    font-family: Arial;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 .MY-INFORMATION
-{position: absolute;
-    top: 30%;
+{   position: absolute;
+    top: 10%;
     left: 50%;
     transform: translate(-50%,-50%);
     color: white;
     background-color: black;
     font-size: 36px;
+    width: 280px;
     text-align: center;
 }
 .NAME
 {
     position: absolute;
-    top: 60%;
+    top: 35%;
     left: 25%;
+    width: 160px;
     transform: translate(-50%,-50%);
     color: white;
     background-color: black;
@@ -23,8 +40,9 @@
 .CONTACT
 {
     position: absolute;
-    top: 130%;
+    top: 105%;
     left: 25%;
+    width: 200px;
     transform: translate(-50%,-50%);
     color: white;
     background-color: black;
@@ -35,8 +53,9 @@
 .EDUCATION
 {
     position: absolute;
-    top: 60%;
+    top: 35%;
     left: 80%;
+    width: 250px;
     transform: translate(-50%,-50%);
     color: white;
     background-color: black;
@@ -45,9 +64,10 @@
 
 }
 .HOBBY
-{   position: absolute;
-    top: 150%;
+{   position:absolute;
+    top: 100%;
     left: 80%;
+    width: 160px;
     transform: translate(-50%,-50%);
     color: white;
     background-color: black;
@@ -57,11 +77,10 @@
 }
 .data-name
 {   position: absolute;
-    top: 400px;
-    left: 180px;
+    top: 45%;
+    left: 15%;
     font-size: 1.5em;
     color: rgb(6, 6, 6);
-    background-image: none;
     background-color: transparent;
     text-align: right;
     height: 480px;
@@ -69,37 +88,34 @@
 }
 .data-contact
 {position: absolute;
-top: 840px;
-left: 180px;
+top: 115%;
+left: 15%;
+height: 70px;
 font-size: 1.5em;
 color: rgb(6, 6, 6);
-background-image: none;
 background-color: transparent;
 text-align: right;
-height: 480px;
-width: 854px;
+
 }
 .data-education
 {   position: absolute;
-    top: 400px;
-    left: 900px;
+    top: 40%;
+    left: 70%;
     font-size: 1.5em;
     color: rgb(6, 6, 6);
-    background-image: none;
     background-color: transparent;
     text-align: right;
-    height: 480;
+    
 
 }
 .data-hobby
 {   position: absolute;
-    top: 950px;
-    left: 900px;
+    top: 110%;
+    left: 70%;
     font-size: 1.5em;
     color: rgb(6, 6, 6);
-    background-image: none;
     background-color: transparent;
     text-align: right;
-    height: 480;
+    
 
 }
